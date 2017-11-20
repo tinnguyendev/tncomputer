@@ -1,0 +1,75 @@
+.tn-top-item a, .tn-top-item{
+	margin-left: 10px;
+}
+
+div{
+	border: 1px solid black;
+	padding: 2px;
+	background-color: #ccc;
+}
+
+.tn-logo{
+	width: 40px;
+	height: 40px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.tn-hotline{
+	font-size: 1.3 em;
+	color: red;
+}
+
+.tn-shoppingcart{
+	font-size: 1.3em;
+}
+
+
+/* verdropdown navigator */
+.verdropdown ul{
+	padding-left: 0;
+}
+
+.verdropdown li{
+	min-height: 40px;
+	list-style-type: none;
+	background: -webkit-linear-gradient(0deg, green, #009900); /* For Safari */
+	background: -o-linear-gradient(0deg, green, #009900); /* For Opera 11#1 to 12#0 */
+	background: -o-linear-gradient(0deg, green, #009900); /* For Firefox 3#6 to 15 */
+	background: linear-gradient(0deg, green, #009900); /* Standard syntax (must be last) */
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #222;
+	color: yellow;
+	text-align: center;
+}
+
+.verdropdown li ul li{
+	min-height: 40px;
+	list-style-type: none;
+	background: -webkit-linear-gradient(0deg, #006600, #00aa00); /* For Safari */
+	background: -o-linear-gradient(0deg, #006600, #00aa00); /* For Opera 11#1 to 12#0 */
+	background: -o-linear-gradient(0deg, #006600, #00aa00); /* For Firefox 3#6 to 15 */
+	background: linear-gradient(0deg, #006600, #005500); /* Standard syntax (must be last) */
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #222;
+	color: yellow;
+	text-align: center;
+}
+
+.verdropdown li a{
+	min-height: 40px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+.verdropdown li:hover{
+	text-shadow: 3px 3px 3px #555;
+	border-top: 1px solid #222;
+}
+
+footer{
+	text-align: center;
+}
