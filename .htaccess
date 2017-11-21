@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9]*).html$ index.php?content=$1
+RewriteRule ^product-([a-zA-Z0-9]*).html$ index.php?content=product&catid=$1
+RewriteRule ^product-([a-zA-Z0-9]*)-([a-zA-Z0-9]*)-([a-zA-Z0-9]*).html$ index.php?content=product&totalpage=$1&start=$2&limit=$3
+RewriteRule ^product-([a-zA-Z0-9]*)-([a-zA-Z0-9]*)-([a-zA-Z0-9]*)-([a-zA-Z0-9]*).html$ index.php?content=product&catid=$1&totalpage=$2&start=$3&limit=$4
